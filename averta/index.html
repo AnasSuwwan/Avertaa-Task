@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Averta Task</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="author" content="Sara Abusleem">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css//coustom.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$("document").ready(function (){
+			$(".containerr").hide();
+		 $(".nav2").click(function(){
+		 $(".containerr").toggle();
+		 });	
+		});
+	</script>
+</head>
+<body>
+	<header class="background">
+		<ul class="nav">
+  			<li class="nav-item  pt-3 pl-4">
+   				<a class="nav-link active" href="#"><img src="img//logo.png" class="img-size"></a>
+	  		</li>
+	  		<div class="cont">
+  			<li class="nav-item  pt-3">
+    			<a class="nav-link" href="#"><i class="fas fa-globe fa-color"></i></a>
+  			</li>
+  			<li class="nav-item  pt-3">
+    			<a class="nav-link" href="#"><i class="fas fa-comments fa-color"></i></a>
+  			</li>
+  			<li class="nav-item  pt-3">
+    			<a class="nav-link" href="#"><i class="fas fa-bell fa-color">&nbsp;&nbsp;|</i></a>
+  			</li>
+  			<li class="nav-item  pt-3">
+    			<div>
+    				<h6 class="txt1">Jhon Smith</h6>
+    				<p class="txt2">Product Maneger</p>
+    			</div>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link" href="#"><i class="fas fa-user-alt user"></i><i class="fas fa-angle-down fa-color pl-3"></i></a>
+  			</li>
+  		</div>
+  		</ul>
+	</header>
+	<section class="sec-one">
+		<div class="left-nav">
+				<div class=" na nav1">
+					<p class="inline pra"><i class="fas fa-chart-bar baro"><b> Dashboard</b></i></p>
+				</div>
+				<div class="na nav2">
+					<p class="inline pra"><i class="fas fa-map-marker-alt"><b> Routes preduction statistics</b></i></p>
+				</div>
+				<div class="na nav3">
+					<p class="inline pra"><i class="fas fa-map-marker-alt"><b> Courier Tracking</b></i></p>
+				</div>
+				<div class="na nav4">
+					<p class="inline pra"><i class="fas fa-power-off"><b> Sign Out</b></i></p>
+				</div>
+		</div>
+		<div class="containerr">
+			<div class="textbox">
+				<input type="text" placeholder="Entity" name="">
+				<i class="fas fa-angle-down fa-color"></i>
+			</div>
+			<div class="textbox">
+				<input type="text" placeholder="City" name="">
+				<i class="fas fa-angle-down fa-color"></i>
+			</div>
+			<div class="textbox">
+				<input type="text" placeholder="Route" name="">
+				<i class="fas fa-angle-down fa-color"></i>
+			</div>
+			<div id="cont">
+				<div class="textbox1">
+					<input type="text" placeholder="From" name="">
+					<i class="fas fa-calendar-check"></i>
+				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div class="textbox1">
+					<input type="text" placeholder="To" name="">
+					<i class="fas fa-calendar-check"></i>
+				</div>
+			</div>
+			<div>
+				<button type="button" class="btn btn-warning btn-lg but1">Search</button><br>
+				<button type="button" class="btn btn-warning btn-lg but2">Clear</button>
+			</div>
+		</div>
+		<div class="two-div">
+			<div class="left-div">
+				<P>Title</P>
+				<hr>
+				<img src="img//chart1.png" class="img">
+				<hr>
+				<i class="fas fa-square-full squ p1"></i>
+				<p class="squ p1">failur</p>
+				<i class="fas fa-square-full squ p2"></i>
+				<p class="squ p2">sucsses</p>
+			</div>
+			<div class="right-div">
+				<p>Route 1 Failure Reasons</p>
+				<hr>
+				<img src="img//chart2.png" class="img">
+				<hr>
+				<i class="fas fa-square-full squ p2"></i>
+				<p class="squ p2">Wrong Predications</p>
+				<i class="fas fa-square-full squ p1"></i>
+				<p class="squ p1">New Instrucions</p>
+			</div>
+			<div class="table">
+			<p>Table of wrong predected AWBs</p>
+			<hr>
+			<table>
+				<tr>
+					<th>AWB</th>
+					<th>predicted</th>
+					<th>Actual</th>		
+				</tr>
+				<tr>
+					<td>123456</td>
+					<td>DXB-9874</td>
+					<td>DXB-4789</td>	
+				</tr>
+				<tr>
+					<td>123456</td>
+					<td>DXB-9874</td>
+					<td>DXB-4789</td>	
+				</tr>
+				<tr>
+					<td>123456</td>
+					<td>DXB-9874</td>
+					<td>DXB-4789</td>	
+				</tr>				
+			</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

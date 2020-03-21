@@ -1,0 +1,260 @@
+body{
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #303942;
+}
+.background{
+	background-color: #36404a;
+}
+.img-size{
+	width: 150px;
+}
+.fa-color{
+	color: #c3c3cc;
+}
+.cont{
+	margin-left: 700px;
+	display: flex;
+}
+.txt1{
+	margin-bottom: 0;
+	padding-left: 40px;
+	color: white;
+}
+.txt2{
+	color: #c3c3cc;
+}		
+.user{
+	font-size: 35px;
+	border-radius:90px; 
+	border: 3px solid #40f8f6 ;
+	background-color: #fff;
+	padding: 8px 10px 40px 8px;
+	margin-left: 10px;
+	height: 23px;
+	color: #303942;
+}
+section{
+	display: flex; 
+}
+.sec-one{
+	display: flex;
+
+}
+.left-nav{
+	height: 630px;
+	width: 471px; 
+	background-color:#36404c;
+	margin: 10px 20px 0 0;
+	display:inline-block  ;
+}
+.na{
+	padding: 10px;
+	height: 10px;
+	margin-top : 40px;
+	color: white;
+}
+.nav1 :hover{ 
+	background-color: #1d636d;
+	border-left: 3px solid #30fff3;
+}
+.nav2 :hover{ 
+	background-color: #1d636d;
+	border-left: 3px solid #30fff3;
+}
+.nav3 :hover{ 
+	background-color: #1d636d;
+	border-left: 3px solid #30fff3;
+}
+.nav4 :hover{ 
+	background-color: #1d636d;
+	border-left: 3px solid #30fff3;
+}
+.containerr{
+	display: block;
+	margin-top: 60px;
+}
+.textbox{
+	width: 93%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid white;
+}
+.textbox1{
+	width: 42%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid white;
+	display: block;
+}
+#cont{
+	display: flex;
+	
+}
+.textbox i{
+	width: 26px;
+	float: right;
+	text-align: center;
+	color: #c3c3cc;
+}
+.textbox1 i{
+	width: 26px;
+	float: right;
+	text-align: center;
+	color: #c3c3cc;;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin:0 10px;
+}
+.textbox1 input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin:0 10px;
+}
+.but1{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-right: 70px;
+	padding-left: 70px;
+	background-color: #30fff3;
+	border: none;	
+}
+.but2{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-right: 80px;
+	padding-left: 80px;
+	background-color: #019fe1;
+	color: white;
+	border: none;	
+}
+.two-div{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 30PX;
+	padding-right: 20PX;
+}
+.left-div{
+	background-color: #36404a;
+	border: 1px solid #36404a;
+	width: 410px;
+	height: 290px;
+	margin-top: 30px;
+	margin-right: 10PX;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: white;
+	border-radius: 10px;
+}
+.right-div{
+	background-color: #36404a;
+	border: 1px solid #36404a;
+	width: 410px;
+	height: 290px;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 5px 8px rgba(48,57,66,.4);
+}
+.img{
+	width: 390px;
+	height: 150px;
+}
+.squ{
+	display: inline-block;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.p1{
+	color: #b5ef7f;
+}
+.p2{
+	color: #00b2ff;
+}
+.table{
+	background-color: #36404a;
+	border: 1px solid #36404a;
+	width: 830px;
+	height: 290px;
+	margin-top: 330px;
+	margin-left: -830px;
+	border-radius: 10px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.table p{
+	padding-top: 1px;
+}
+table{
+	width: -webkit-fill-available;
+	border-spacing: 4px;
+	margin-top: 2px;
+	text-align: center;
+	border: 5px solid #3e4851;
+	border-collapse: separate;
+}
+th{
+	background-color: #ffb100;
+	color: black;
+}
+td{
+	background-color: #3e4851;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+tr{
+	padding-top: 100PX;
+	padding-bottom: 20PX;
+}
+@media only screen and (max-width: 767px){
+	nav ul{
+		height:230px;
+		flex-direction: column;
+		text-align: center;
+	}
+	.cont{
+		display: block; 
+		flex-direction: column;
+		margin: 30px 0 0 -150px;
+    }
+    .left-nav{
+    	height: 930px;
+    }
+    .two-div{
+		margin: 0px 0 0 5px;
+		width: 450px ;
+		display: block;
+	}
+	.table{
+		margin: 10px 0 0 5px;
+		width: 450px;
+		display: block; 
+		
+	}
+}
+
+
+	
+	
